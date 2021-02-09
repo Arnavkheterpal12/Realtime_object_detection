@@ -27,7 +27,7 @@ function draw(){
             text(objects[i].label+" "+percent+"%",objects[i].x+15,objects.y+15);
             noFill();
             stroke(r,g,b);
-            rect(objects[i].x,objects.y,objects[i].width,objects[i].height);
+            rect(objects[i].x,objects[i].y,objects[i].width,objects[i].height);
         }
     }
 }
